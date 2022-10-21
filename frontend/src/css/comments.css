@@ -1,0 +1,240 @@
+.commentContainer {
+    /*border: 1px solid lightgrey;*/
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 40px auto;
+    position: relative;
+    /*background-color: #F5F6F8;*/
+
+}
+
+.commentContainer hr {
+    width: 85%;
+    margin: auto;
+}
+
+/*.rating_view {*/
+/*    text-align: left;*/
+/*    margin: 10px 0 -10px 0;*/
+/*}*/
+
+.rating_view svg {
+    width: 30px;
+    height: 30px;
+}
+
+.signup_tag {
+    background-color: #93BA22;
+    /* border-radius: 5px 5px 0 0; */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment_h2_form {
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+
+/*
+.login_img {
+    width: 150px;
+    margin-bottom: -30px;
+}
+
+*/
+
+.comment_form_outer_box {
+    padding: 15px 8px;
+    width: 84%;
+    margin: 30px auto;
+    border-radius: 5px;
+    background-color: #F5F6F8;
+}
+
+.comment_form_outer_box > p {
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    margin: 5px 0 5px 10px;
+    color: #555;
+}
+
+.comment_form_outer_box img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.comment_form_inner_box {
+    justify-content: center;
+    margin: 15px 18px 15px 0;
+}
+
+.comment_form_inner_box > input {
+    padding: 8px;
+    width: 100%;
+    border-radius: 3px;
+    border: solid 1px lightgrey;
+}
+
+.comment_form_inner_box > textarea {
+    padding: 8px;
+    width: 100%;
+    margin: auto;
+    border-radius: 3px;
+    border: solid 1px lightgrey;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.comment_form_inner_box > button {
+    padding: 8px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 5px;
+    border: solid 2px green;
+}
+
+.comment_form_inner_box > button:hover {
+    border: solid 2px lightgreen;
+}
+
+.commentButton {
+    background-color: #222E58;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    color: white;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.commentList {
+    position: relative;
+    width: 85%;
+    text-align: left;
+    list-style: none;
+    margin: 25px auto;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    word-break: break-word;
+}
+
+.commentBox {
+    padding: 20px;
+}
+
+/*
+.commentList p {
+    width: max-content;
+    top: -38px;
+    left: -10px;
+    position: absolute;
+    padding: 5px;
+    background-color: #93BA22;
+    color: white;
+    border-radius: 10px;
+}
+
+ */
+
+.commentList li {
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.commentList footer {
+    background-color: #eee;
+    padding: 5px;
+    font-size: 0.9rem;
+    color: #777777;
+}
+
+.comment_image {
+    width: 48px;
+}
+
+.commentTagName {
+    width: max-content;
+    top: 5px;
+    left: 55px;
+    position: absolute;
+}
+
+.commentTagTime {
+    width: max-content;
+    top: 25px;
+    left: 55px;
+    font-size: 14px;
+    color: #59ADEC;
+    position: absolute;
+}
+
+.protected {
+    display: none;
+}
+
+.no_comments {
+    color: #aaa;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+.rated {
+    pointer-events: none;
+    font-size: 20px;
+    max-height: 20px;
+}
+
+.rated svg {
+    height: 20px;
+    width: 20px;
+}
+
+.comment_rating {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #FFD700;
+    block-size: fit-content;
+}
+
+.commentList li {
+    /*background-color: #F5F6F8;*/
+    border-radius: 5px;
+    /*border: #F5F6F8 1px inset;*/
+    /*margin: auto 30px 10px 55px;*/
+}
+
+.text_comment {
+    font-size: 1.2rem;
+}
+
+.delete_comment_button {
+    background-color: red;
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    right: 10px;
+}
+
+.delete_comment_button:hover {
+    background-color: darkred;
+}
+
+.auth_comment_sign {
+    font-size: 1.3rem;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #777777;
+    margin: 15px auto;
+}

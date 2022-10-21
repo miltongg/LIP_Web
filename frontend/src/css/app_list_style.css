@@ -1,0 +1,152 @@
+
+.app_list_container {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    font-family: Calibri, sans-serif;
+    color: #555;
+    grid-template-columns: 20% repeat(3, 20%);
+    grid-template-rows: 250px;
+    margin: 20px auto;
+}
+
+.app_list_box {
+    /* padding: 1.2rem; */
+}
+
+.app_list {
+    position: relative;
+    margin: 20px auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    width: 120px;
+    height: min-content;
+}
+
+
+.title {
+    font-family: Calibri, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: #555;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.app_list_icon {
+    width: 100%;
+}
+
+.app_list_rating svg {
+    height: 15px;
+    width: 15px;
+}
+
+.app_list_data {
+    text-align: center;
+}
+
+.app_item_footer {
+    position: absolute;
+    background-color: #93BA22;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3px 0;
+    width: 100%;
+    left: 0;
+    border-radius: 0 0 3px 3px;
+}
+
+.app_views_count {
+    /* background-color: white; */
+    border-radius: 3px;
+    font-size: 1.1rem;
+    padding: 0 2px;
+    margin-left: 2px;
+}
+
+.app_reviews_count {
+    /* background-color: white; */
+    border-radius: 3px;
+    font-size: 1.1rem;
+    padding: 0 2px;
+    margin-left: 2px;
+}
+
+.app_views {
+    margin-left: 5px;
+    display: flex;
+    color: black;
+}
+
+/* .app_list_icon {
+    width: 100%;
+    max-width: 100px;
+    max-height: 150px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    /* border-radius: 5px; */
+/* } */
+
+/* .app_list {
+    margin: 0 auto ;
+    padding: 0.9rem;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    width: 100px;
+    height: auto;
+    max-height: 200px;
+}
+
+.title {
+    word-wrap: break-word;
+} */
+
+/* .img_box {
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+    margin: auto;
+} */
+
+
+/*  
+.app_list_data {
+
+    margin: auto;
+    width: 100%;
+    text-align: center;
+} */
+
+/* .app_list_rating {
+    margin: auto;
+
+}
+
+
+
+/* .no_applications {
+
+    color: #aaa;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    margin: auto;
+    /*position: absolute;*/
+/* width: 100%; */
+/*left: 35%;*/
+/*right: 35%;*/
+/* top: 50px; */
+/*bottom: 50%;*/
+
+/*}*/

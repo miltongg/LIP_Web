@@ -1,0 +1,157 @@
+
+.idea_list_container {
+    width: 90%;
+    margin: 30px auto;
+    font-family: Calibri, sans-serif;
+    position: relative;
+}
+
+.idea_body {
+    margin: 30px auto;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #93BA22;
+    border-radius: 3px;
+    z-index: 3;
+
+    /*background-color: #cccccc;*/
+}
+
+.idea_body hr {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.idea_box {
+    margin-left: 20px;
+    display: flex;
+}
+
+.idea_title {
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.idea_category {
+    padding: 5px;
+}
+
+.idea_description {
+    padding: 5px;
+    height: max-content;
+    margin-left: 25px;
+}
+
+.like_box {
+    display: flex;
+    margin: auto 5px;
+}
+
+
+.like_button {
+    color: black;
+}
+
+.dislike_button {
+    color: black;
+    transform: rotateY(180deg);
+
+}
+
+.like_button, .dislike_button {
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin: auto 2px;
+    transition: ease-in-out .1s;
+}
+
+.like_button:hover {
+    color: blue;
+}
+
+.like_button:active {
+    transform: translateY(-3px);
+    transition: ease-in-out .1s;
+}
+
+.dislike_button:hover {
+    color: red;
+}
+
+.dislike_button:active {
+    transform: translateY(3px) rotateY(180deg);
+    transition: ease-in-out .1s;
+}
+
+.like_count, .dislike_count {
+    /* background-color: white; */
+    border-radius: 3px;
+    font-size: 1.1rem;
+    padding: 0 2px;
+}
+
+.like_count {
+    color: blue;
+}
+
+.dislike_count {
+    color: red;
+}
+
+.idea_views {
+    margin-left: 5px;
+    display: flex;
+}
+
+.idea_views_count {
+    /* background-color: white; */
+    border-radius: 3px;
+    font-size: 1.1rem;
+    padding: 0 2px;
+    margin-left: 2px;
+}
+
+.idea_reviews_count {
+    /* background-color: white; */
+    border-radius: 3px;
+    font-size: 1.1rem;
+    padding: 0 2px;
+    margin-left: 2px;
+}
+
+.idea_item_footer {
+    position: relative;
+    background-color: #EFEFEF;
+    display: flex;
+    padding: 5px;
+    border-radius: 0 0 3px 3px;
+}
+
+.ver {
+    position: absolute;
+    right: 15px;
+    color: blue;
+}
+
+.no_ideas {
+    color: #aaa;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.idea_list_rating {
+    margin-left: 10px;
+}
+
+.idea_list_rating svg {
+    height: 20px;
+    width: 20px;
+}

@@ -1,0 +1,115 @@
+
+.idea_screen_container {
+    position: relative;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #F5F6F8;
+}
+
+.idea_screen_title {
+    font-size: 2rem;
+    padding: 20px;
+    margin: 20px 0 0 20px;
+
+}
+
+.idea_screen_category {
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top: -35px;
+    left: 60px;
+    /*right: 30px;*/
+}
+
+.idea_screen_category_item {
+    display: block;
+    /*padding: .3rem;*/
+    background-color: #222E58;
+    padding: .2rem;
+    font-size: 1.5rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+.idea_screen_description {
+    font-size: 1.5rem;
+    padding: 10px 40px;
+    margin: 10px 0 20px 20px;
+    width: 80%;
+}
+
+.idea_screen_hr {
+    width: 70%;
+    margin-left: -20px;
+    /*border-color: #F5F6F8;*/
+}
+
+.idea_screen_rating {
+    position: absolute;
+    display: flex;
+    right: 30px;
+    top: 25px;
+}
+
+.disable_rating_cursor {
+    pointer-events: none;
+}
+
+.idea_screen_rating svg {
+    width: 20px;
+    height: 20px;
+}
+
+.idea_screen_reviews_count {
+    color: #777;
+    margin-left: 5px;
+    font-size: 1.2rem;
+}
+
+.idea_screen_reviews_views {
+    color: #777;
+    margin-left: 5px;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.idea_screen_buttons_box {
+    position: absolute;
+    display: flex;
+    top: 60px;
+    right: 0;
+}
+
+.edit_idea_button, .delete_idea_button {
+    font-size: 1.1rem;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: auto 3px;
+}
+
+.edit_idea_button {
+    background-color: green;
+}
+
+.delete_idea_button {
+    background-color: red;
+}
+
+.edit_idea_button:hover {
+    background-color: darkolivegreen;
+}
+
+.delete_idea_button:hover {
+    background-color: darkred;
+}
+
+/*.idea_screen_reviews_count svg {*/
+/*    font-size: 5px;*/
+/*}*/

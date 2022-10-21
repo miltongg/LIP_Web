@@ -1,0 +1,336 @@
+.top_container {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.left_container {
+    display: flex;
+    margin-left: 30px;
+}
+
+.top_left_data_container {
+    margin-top: 20px;
+}
+
+
+.app_icon {
+    width: 150px;
+    /*height: 150px;*/
+    margin: 20px
+}
+
+.app_data {
+    margin: auto 0;
+    width: 100%;
+    position: relative;
+}
+
+.app_title {
+    font-size: 1.7rem;
+    font-family: Calibri, sans-serif;
+    padding-left: 10px;
+}
+
+.app_data > p {
+    font-size: 1.7rem;
+    font-family: Calibri, sans-serif;
+    padding-left: 10px;
+    /*margin-top: 20px;*/
+}
+
+.app_info_lite {
+    line-height: 30px;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #777;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.app_buttons_box {
+    position: absolute;
+    right: 50px;
+    width: 100%;
+    top: 75px
+}
+
+.info_stars {
+    position: absolute;
+    top: 70px;
+    right: 53px;
+    color: #FFD700;
+    font-size: 20px;
+}
+
+.info_stars svg {
+    width: 20px;
+    height: 20px;
+}
+
+.info_stars span {
+    color: #777;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.views {
+    position: absolute;
+    right: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #777;
+    top: 30px;
+}
+
+.download_button {
+    margin-top: 20px;
+    position: absolute;
+    right: 53px;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: green;
+    padding: 10px;
+    height: 20px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.download_button span {
+    font-size: 12px;
+}
+
+hr {
+    border: 1px solid #cccccc;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.middle_container {
+    padding: 0 1.2rem;
+}
+
+.middle_container h2 {
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #555;
+}
+
+.middle_container p {
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    color: #555;
+    padding: 5px;
+}
+
+.bottom_container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: #555;
+}
+
+.bottom_container h2 {
+    margin: 10px 0;
+    padding: 0 1.2rem;
+}
+
+.bottom_container p {
+    margin: 10px 0;
+    padding: 0 1.2rem;
+}
+
+.toggle_comment {
+    width: max-content;
+    padding: 10px;
+}
+
+.toggle_comment:hover {
+    cursor: pointer;
+}
+
+.comment_container {
+    border: 1px solid lightgrey;
+    width: 100%;
+    text-align: center;
+    /*border-radius: 5px;*/
+    margin-bottom: 40px;
+}
+
+.comment_header {
+    background-color: #93BA22;
+    /*border-radius: 5px 5px 0 0;*/
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment_h2_form {
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.comment_form_box {
+    padding: 15px 8px;
+    /*border-radius: 5px;*/
+    background-color: #F5F6F8;
+}
+
+.comment_form_box > p {
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    margin: 5px 0 5px 10px;
+    color: #555;
+}
+
+.comment_form {
+    justify-content: center;
+    margin: 15px 18px 15px 0;
+}
+
+.comment_form > input {
+    padding: 8px;
+    width: 100%;
+    /*border-radius: 3px;*/
+    border: solid 1px lightgrey;
+}
+
+.comment_form > textarea {
+    padding: 8px;
+    width: 100%;
+    /*border-radius: 3px;*/
+    border: solid 1px lightgrey;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.comment_button {
+    background-color: #222E58;
+    padding: 10px;
+    border: none;
+    /*border-radius: 5px;*/
+    width: 100px;
+    color: white;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.comment_list {
+    margin: auto;
+    width: 85%;
+    position: relative;
+    list-style: none;
+    margin: 25px auto;
+    border: 1px solid lightgrey;
+    /*border-radius: 5px;*/
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.comment_data {
+    position: relative;
+}
+
+.comment_image {
+    width: 48px;
+}
+
+.comment_tag_name {
+    width: max-content;
+    top: 5px;
+    left: 55px;
+    position: absolute;
+}
+
+.comment_tag_time {
+    width: max-content;
+    top: 25px;
+    left: 55px;
+    font-size: 14px;
+    color: #59ADEC;
+    position: absolute;
+}
+
+.comment_rating {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 1.2rem;
+    color: #FFD700;
+}
+
+.comment_list li {
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.comment_list footer {
+    background-color: #eee;
+    padding: 5px;
+    font-size: 0.9rem;
+    color: #777777;
+}
+
+.protected {
+    display: none;
+}
+
+/*Star Rating*/
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.rating > input {
+    display: none;
+}
+
+.rating > label {
+    position: relative;
+    width: 1.1em;
+    font-size: 1.5rem;
+    color: #FFD700;
+    cursor: pointer;
+}
+
+.rating > label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+    opacity: 1 !important;
+}
+
+.rating > input:checked ~ label:before {
+    opacity: 1;
+}
+
+.rating:hover > input:checked ~ label:before {
+    opacity: 0.4;
+}
+
+.app_screen_category_item {
+    /*display: block;*/
+    /*padding: .3rem;*/
+    background-color: #222E58;
+    padding: .2rem;
+    font-size: 0.8rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: -5px;
+    transition: ease-in-out .2s;
+}
