@@ -23,33 +23,15 @@ export const RegisterScreen = () => {
 
     const {name, email, password, password2} = formValues;
 
-    const handleRegister = (e) => {
+    const handleRegister = async (e) => {
         e.preventDefault()
         if (password !== password2) {
-            return Swal.fire('Las contraseñas no coinciden', '', 'warning')
+            return await Swal.fire('Las contraseñas no coinciden', '', 'warning')
         }
-        dispatch(startRegister(name, email, password));
 
-        // if (isFormValid()) {
-        //     console.log('Formulario correcto')
-        // }
+        dispatch(startRegister(name, email, password));
     }
 
-    // const isFormValid = () => {
-    //
-    //     if (name.trim().length === 0) {
-    //         dispatch(setError('Se requiere un nombre'))
-    //         return false
-    //     } else if ( !validator.isEmail(email) ) {
-    //         dispatch(setError('El correo no es correcto'))
-    //         return false
-    //     } else if (password !== password2) {
-    //         dispatch(setError('Las contraseñas no coinciden'))
-    //         return false
-    //     }
-    //     dispatch(removeError())
-    //     return true
-    // }
 
     return (
 

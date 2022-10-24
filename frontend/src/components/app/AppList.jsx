@@ -36,6 +36,10 @@ export const AppList = () => {
 
         <div className="app_list_container">
 
+            {/*<Link to="/app/add" className="go_to_app_form">*/}
+            {/*    Agregar aplicación*/}
+            {/*</Link>*/}
+
             {
                 (app.length === 0) && <p className="no_applications">No hay aplicaciones</p>
             }

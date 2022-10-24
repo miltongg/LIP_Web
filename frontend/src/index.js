@@ -12,6 +12,7 @@ import './css/app_form_styles.css';
 import './css/app_screen_style.css';
 import './css/app_list_style.css';
 import './css/crud.css';
+import './css/info_style.css'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

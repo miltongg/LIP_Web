@@ -39,7 +39,6 @@ export const startRegister = (name, email, password) => {
             localStorage.setItem('token', body.token)
             localStorage.setItem('token-init-date', new Date().getTime())
 
-
             dispatch(login({
                 token: body.token,
                 role: body.role,
@@ -79,7 +78,7 @@ export const startChecking = () => {
                 email: body.email
             }))
         } else {
-            await Swal.fire('Error', body.message, 'error')
+            await Swal.fire(body.message, '', 'error')
             dispatch(checkingFinish())
         }
     }

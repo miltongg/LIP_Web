@@ -21,6 +21,10 @@ import {AppScreen} from "../components/app/AppScreen";
 import {AppListScreen} from "../components/app/AppListScreen";
 import {AppEditScreen} from "../components/app/AppEditScreen";
 import {DashboardScreen} from "../components/admin/DashboardScreen";
+import LaboratoryInfoScreen from "../components/info/LaboratoryInfoScreen";
+import MethodologyInfoScreen from "../components/info/MethodologyInfoScreen";
+import InteractionInfoScreen from "../components/info/InteractionInfoScreen";
+import InitiativeInfoScreen from "../components/info/InitiativeInfoScreen";
 
 export const AppRouter = () => {
 
@@ -42,6 +46,7 @@ export const AppRouter = () => {
             <div>
                 <Routes>
 
+                    <Route path='/*' element={<Navigate replace to="/"/>} />
                     <Route
                         path='/user/login'
                         element={!!token ? <Navigate to='/user/profile'/> : <LoginScreen/>}
@@ -71,10 +76,19 @@ export const AppRouter = () => {
                     <Route path='/app/list' element={<AppListScreen/>}/>
                     <Route path='/app/:appId' element={<AppScreen/>}/>
                     <Route path='/app/edit/:appId' element={<AppEditScreen/>}/>
+                    <Route path='/app/*' element={<Navigate replace to="/"/>} />
 
                     {/* DASHBOARD ROUTES */}
                     <Route path='/dashboard' element={(role === 'admin' || role === 'moderator') ? <DashboardScreen/> :
-                        <Navigate to='/'/>}/>
+                        <Navigate to='/'/>}
+                    />
+
+                    {/* WEB INFO */}
+                    <Route path='/info/laboratory' element={<LaboratoryInfoScreen />}/>
+                    <Route path='/info/methodology' element={<MethodologyInfoScreen />} />
+                    <Route path='/info/interaction' element={<InteractionInfoScreen />} />
+                    <Route path='/info/initiative' element={<InitiativeInfoScreen />} />
+                    <Route path='/info/*' element={<Navigate replace to="/"/>} />
 
                 </Routes>
             </div>

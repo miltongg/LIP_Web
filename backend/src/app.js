@@ -4,10 +4,10 @@ const app = express();
 const fileUpload = require('express-fileupload');
 
 
-// settings
+// SETTINGS //
 app.set('port', process.env.PORT || 2000);
 
-// middlewares
+// MIDDLEWARES //
 app.use(cors());
 app.use(express.json());
 

@@ -118,7 +118,7 @@ export const EditUserScreen = () => {
                                 <input
                                     type="text"
                                     name="username"
-                                    placeholder="Nickname"
+                                    placeholder="Alias"
                                     value={username}
                                     onChange={handleInputChange}
                                 />

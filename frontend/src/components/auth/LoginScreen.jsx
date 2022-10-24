@@ -40,7 +40,7 @@ export const LoginScreen = () => {
                                 <input
                                     type="text"
                                     name="email"
-                                    placeholder="Correo o Nickname"
+                                    placeholder="Correo o Alias"
                                     value={email}
                                     onChange={handleLoginInputChange}
                                 />

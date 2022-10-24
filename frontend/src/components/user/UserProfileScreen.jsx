@@ -189,7 +189,7 @@ export const UserProfileScreen = () => {
                         </div>
 
                         <div className="username_field">
-                            <div className="name_tag">Nickname</div>
+                            <div className="name_tag">Alias</div>
                             <div className="name_value">{user.username}</div>
                         </div>
 

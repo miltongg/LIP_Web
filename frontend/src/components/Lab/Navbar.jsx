@@ -32,10 +32,10 @@ const Navbar = () => {
                     <img className="logo" src={require("../../img/Logo.png")} alt="Logo"/>
                 </NavLink>
                 <ul className="top_navbar">
-                    <li><NavLink to="views/laboratorio.html">Laboratorio</NavLink></li>
-                    <li><NavLink to="views/iniciativa.html">Iniciativa</NavLink></li>
-                    <li><NavLink to="views/metodologia.html">Metodología</NavLink></li>
-                    <li><NavLink to="views/interaccion.html">Interacción</NavLink></li>
+                    <li><NavLink to="/info/laboratory">Laboratorio</NavLink></li>
+                    <li><NavLink to='/info/initiative'>Iniciativa</NavLink></li>
+                    <li><NavLink to="/info/methodology">Metodología</NavLink></li>
+                    <li><NavLink to='/info/interaction'>Interacción</NavLink></li>
                 </ul>
             </header>
 
@@ -47,12 +47,12 @@ const Navbar = () => {
                     <NavLink to="/app/list">
                         <li><span><i className="fas fa-boxes"></i> </span>Aplicaciones</li>
                     </NavLink>
-                    <NavLink to="views/projects.html">
-                        <li><span><i className="fa fa-folder"></i> </span>Proyectos</li>
-                    </NavLink>
-                    <NavLink to="views/noticias.html">
-                        <li><span><i className="fas fa-newspaper"></i> </span>Noticias</li>
-                    </NavLink>
+                    {/*<NavLink to="views/projects.html">*/}
+                    {/*    <li><span><i className="fa fa-folder"></i> </span>Proyectos</li>*/}
+                    {/*</NavLink>*/}
+                    {/*<NavLink to="views/noticias.html">*/}
+                    {/*    <li><span><i className="fas fa-newspaper"></i> </span>Noticias</li>*/}
+                    {/*</NavLink>*/}
                     <div className="right_nav">
                         {
                             (role === 'admin') &&
@@ -110,13 +110,13 @@ const Navbar = () => {
                         }
                         {
                             (!token) && <NavLink to="/user/login">
-                                <li><span><i className="fas fa-user-check"></i> </span>Login</li>
+                                <li><span><i className="fas fa-user-check"></i> </span>Acceder</li>
                             </NavLink>
                         }
 
                         {
                             (!!token) && <NavLink to="/user/login" className="logout_button" onClick={handleLogout}>
-                                <li>Logout</li>
+                                <li>Cerrar Sesión</li>
                             </NavLink>
                         }
 

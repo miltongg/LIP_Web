@@ -116,7 +116,7 @@ export const IdeaList = () => {
                 ))
             }
 
-            {
+            {/* {
 
                 pageNumbers.map((number) => (
                     <li key={number} id={number}>
@@ -124,7 +124,7 @@ export const IdeaList = () => {
                     </li>
                 ))
 
-            }
+            } */}
 
         </div>
     )

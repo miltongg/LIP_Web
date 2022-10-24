@@ -1,6 +1,7 @@
 
 .app_list_container {
     display: grid;
+    position: relative;
     justify-content: center;
     width: 100%;
     font-family: Calibri, sans-serif;
@@ -10,8 +11,8 @@
     margin: 20px auto;
 }
 
-.app_list_box {
-    /* padding: 1.2rem; */
+.app_list_body {
+    position: relative;
 }
 
 .app_list {
@@ -150,3 +151,14 @@
 /*bottom: 50%;*/
 
 /*}*/
+
+.no_applications {
+    position: absolute;
+    font-size: 1.4rem;
+    width: 200px;
+    color: #aaa;
+    top: 180px;
+    left: 40%;
+    right: 40%;
+    margin: auto;
+}
